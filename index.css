@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/*font-family: 'Chelsea Market', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/*font-family: 'Roboto Mono', monospace;*/
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    border:1px solid black;
+}
+
+a{
+    display:inline-block;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    align: center;
+    padding: 30px;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+
+h2{
+    background-color:#DDB9A3;
+    color: white;
+    padding:15px;
+}
+
+b{
+   font-weight:bold; 
+}
