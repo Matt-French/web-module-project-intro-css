@@ -10,10 +10,6 @@
     overflow-x:hidden;
     }
 
-h1,h2,h3,h4{
-    margin:50px;
-}
-
 .topnav{
     position: relative;
     text-align:center;
@@ -27,6 +23,21 @@ h1,h2,h3,h4{
     padding:14px 16px;
 }
 
+.Plan{
+    background-color: #FF764E;
+    color:white;
+}
+
+.Learn{
+    background-color: #5ED3EB;
+    color:white;
+}
+
+.Involved{
+    background-color: #FFCD69;
+    color:white;
+}
+
 a{
     display:inline-block;
     padding: 10px;
@@ -35,29 +46,62 @@ a{
     padding: 30px;
 }
 
+.top_align{
+    display:block;
+}
+
 .head_img{
+    margin:50px;
     border-radius: 50%;
-    width:200px
+    width:370px;
 }
 
 .center{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:100px;
+    width:200px;
     }
 
 h1{
+    margin:50px;
+    margin-left:500px;
+    margin-top:-350px;
+    margin-bottom:120px;
     font-family: 'Chelsea Market', cursive;
-}
+    text-align:center;
+ }
 
 h2{
+    margin:50px;
     background-color:#DDB9A3;
     color: white;
     padding:15px;
 }
 
-b{
-   font-weight:bold; 
+h3{
+    margin-top:50px;
+    margin-left:650px;
+    margin-right:650px;
+    text-align:center;
+}
+
+h4{
+    margin-top:50px;
+    margin-left:650px;
+    margin-right:650px;
+    margin-bottom:50px;
+    text-align:center;
+}
+
+#footerimg{
+    height:300px;
+    width:100%;
+    overflow:hidden;
+}
+
+footer{
+    margin-top:200px;
+    background-color:#F9E7DC;
 }
 
