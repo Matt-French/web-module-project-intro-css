@@ -7,16 +7,45 @@
 *{
     font-family: 'Roboto Mono', monospace;
     border:1px solid black;
+    overflow-x:hidden;
+    }
+
+h1,h2,h3,h4{
+    margin:50px;
+}
+
+.topnav{
+    position: relative;
+    text-align:center;
+    padding:14px 16px;
+    
+}
+
+.botnav{
+    position: relative;
+    text-align:center;
+    padding:14px 16px;
 }
 
 a{
     display:inline-block;
     padding: 10px;
-    width: 100px;
-    height: 30px;
-    align: center;
+    width: 150px;
+    height: 50px;
     padding: 30px;
 }
+
+.head_img{
+    border-radius: 50%;
+    width:200px
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    }
 
 h1{
     font-family: 'Chelsea Market', cursive;
@@ -31,3 +60,4 @@ h2{
 b{
    font-weight:bold; 
 }
+
