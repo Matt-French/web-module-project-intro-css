@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/*font-family: 'Chelsea Market', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/*font-family: 'Roboto Mono', monospace;*/
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    border:1px solid black;
+    overflow-x:hidden;
+    }
+
+.topnav{
+    position: relative;
+    text-align:center;
+    padding:33.3333%x 16px;
+    
+}
+
+.botnav{
+    position: relative;
+    text-align:center;
+    padding:14px 16px;
+}
+
+.Plan{
+    background-color: #FF764E;
+    color:white;
+}
+
+.Learn{
+    background-color: #5ED3EB;
+    color:white;
+}
+
+.Involved{
+    background-color: #FFCD69;
+    color:white;
+}
+
+a{
+    display:inline-block;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 30px;
+}
+
+.top_align{
+    display:block;
+}
+
+.head_img{
+    margin:50px;
+    border-radius: 50%;
+    width:370px;
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+    }
+
+h1{
+    font-size:90px;
+    margin:50px;
+    margin-left:500px;
+    margin-right:200px;
+    margin-top:-400px;
+    margin-bottom:80px;
+    font-family: 'Chelsea Market', cursive;
+    text-align:center;
+ }
+
+ .line1{
+     margin-left:110px;
+     margin-right:20px;
+     font-size:30px;
+ }
+
+ .line2{
+     font-size:30px;
+     margin-left:230px;
+     margin-right:130px;
+ }
+
+h2{
+    margin:50px;
+    margin-left:15px;
+    margin-right:15px;
+    background-color:#DDB9A3;
+    color: white;
+    }
+
+h3{
+    margin-top:50px;
+    margin-left:650px;
+    margin-right:650px;
+    text-align:center;
+}
+
+h4{
+    margin-top:50px;
+    margin-left:650px;
+    margin-right:650px;
+    margin-bottom:50px;
+    text-align:center;
+}
+
+#footerimg{
+    height:300px;
+    width:100%;
+    overflow:hidden;
+}
+
+footer{
+    margin-top:150px;
+    background-color:#F9E7DC;
+}
+
